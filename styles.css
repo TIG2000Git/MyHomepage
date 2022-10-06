@@ -749,6 +749,12 @@ p {
     justify-content: space-between;
 }
 
+@media (max-width:550px){
+    .card-footer{
+        flex-direction: column;
+    }
+}
+
 .footer-lng{
     display:flex;
     flex-direction: row;
@@ -756,7 +762,17 @@ p {
     justify-content: center;
     min-width:300px;
 }
-
+@media (max-width:770px){
+    .footer-lng{
+        min-width:200px;
+    }
+}
+@media(max-width:550px){
+    .footer-lng{
+        max-width: 280px;
+        margin:auto;
+    }
+}
 .padr {
     margin-left: 10px;
     width: 40px;
@@ -1008,16 +1024,19 @@ input:-webkit-autofill:active {
     width:33%;
 }
 
-<a class="btncus m col">C</a>
 
-<a class="btncus m col">Python</a>
+.little{
+    font-size: 2rem;
+    font-family: 'Inconsolata';
+}
 
-<a class="btncus m col">SQLite</a>
-
-<a class="btncus m col">HTML</a>
-<a class="btncus m col">CSS</a>
-<a class="btncus m col">JS</a>
-
-<div class="footer-lng">
-<a class="btncus border border-dark me-2 b">C</a>
-</div>
+@media (max-width:770px){
+    .little{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:550px){
+    .little{
+       font-size: 1.3rem;
+    }
+}
