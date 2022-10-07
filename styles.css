@@ -405,7 +405,8 @@ a.wrighting-color:focus {
     justify-content: center;
 }
 
-a.btncus:hover, a.btncussocial:hover {
+a.btncus:hover,
+a.btncussocial:hover {
     color: #060606;
     animation-name: zoomer;
     animation-duration: 2s;
@@ -610,9 +611,9 @@ p.f {
 @media (max-width: 992px) {
     .textomexto {
         text-align: center;
-        margin:auto;
-        padding-left:0px;
-        max-width:850px;
+        margin: auto;
+        padding-left: 0px;
+        max-width: 850px;
     }
 }
 
@@ -701,9 +702,10 @@ p {
     text-align: center;
     margin-bottom: 30px;
 }
+
 @media (max-width: 768px) {
     .mypoj {
-       font-size:3rem;
+        font-size: 3rem;
     }
 }
 
@@ -713,6 +715,7 @@ p {
     margin: 15px;
     width: 720px;
 }
+
 @media (max-width:768px) {
     .card {
         width: 90%;
@@ -744,35 +747,38 @@ p {
     background-color: rgba(0, 0, 0, 0);
     border-top: 0px;
     padding: 0.5rem 0rem;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-@media (max-width:550px){
-    .card-footer{
+@media (max-width:550px) {
+    .card-footer {
         flex-direction: column;
     }
 }
 
-.footer-lng{
-    display:flex;
+.footer-lng {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-width:300px;
+    min-width: 300px;
 }
-@media (max-width:770px){
-    .footer-lng{
-        min-width:200px;
+
+@media (max-width:770px) {
+    .footer-lng {
+        min-width: 200px;
     }
 }
-@media(max-width:550px){
-    .footer-lng{
+
+@media(max-width:550px) {
+    .footer-lng {
         max-width: 280px;
-        margin:auto;
+        margin: auto;
     }
 }
+
 .padr {
     margin-left: 10px;
     width: 40px;
@@ -829,10 +835,11 @@ p {
         display: block;
     }
 }
-.btncussocial{
-    margin:auto;
-    margin-bottom:20px;
-    width:48%;
+
+.btncussocial {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 48%;
     display: flex;
     background-image: linear-gradient(48deg, rgb(109, 125, 245) 0%, rgb(218, 224, 248) 100%);
     color: #060606;
@@ -853,20 +860,22 @@ input:-webkit-autofill:active {
 
 .formbold-mb-5 {
     margin-bottom: 20px;
-  }
-  .formbold-main-wrapper {
-    width:650px;
+}
+
+.formbold-main-wrapper {
+    width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 48px;
-  }
+}
 
 @media (max-width: 1250px) {
     .formbold-main-wrapper {
-        margin:auto;
+        margin: auto;
     }
 }
+
 @media (max-width: 768px) {
     .formbold-main-wrapper {
         width: 550px;
@@ -885,44 +894,47 @@ input:-webkit-autofill:active {
     }
 }
 
-  .formbold-form-wrapper {
+.formbold-form-wrapper {
     margin: 0 auto;
     max-width: 550px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
-  }
-  .formbold-form-label {
+}
+
+.formbold-form-label {
     display: block;
     font-weight: 500;
     font-size: 16px;
     color: #FFF;
     margin-bottom: 12px;
-  }
-  .formbold-form-label-2 {
+}
+
+.formbold-form-label-2 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
-  }
+}
 
-  .formbold-form-input {
+.formbold-form-input {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     padding: 12px 5px 12px 5px;
     border-radius: 6px;
-    border-color: transparent  transparent  #fff transparent;
+    border-color: transparent transparent #fff transparent;
     background-color: rgba(0, 0, 0, 0);
     font-weight: 500;
     font-size: 16px;
     color: #FFF;
     outline: none;
     resize: none;
-  }
-  .formbold-form-input:focus {
+}
+
+.formbold-form-input:focus {
     border-color: #6a64f1;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-  }
+}
 
-  .formbold-btn {
+.formbold-btn {
     text-align: center;
     font-size: 16px;
     border-radius: 6px;
@@ -932,35 +944,39 @@ input:-webkit-autofill:active {
     background-image: linear-gradient(48deg, rgb(109, 125, 245) 0%, rgb(218, 224, 248) 100%);
     color: black;
     cursor: pointer;
-  }
-  .formbold-btn:hover {
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-  }
-
-.sociallogo{
-    font-size:2.5rem;
 }
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sociallogo {
+    font-size: 2.5rem;
+}
+
 @media (max-width: 576px) {
     .sociallogo {
-        font-size:2rem;
-    }
-}
-@media (max-width: 576px) {
-    .fs-4{
-        font-size: calc(1rem + .3vw)!important;
+        font-size: 2rem;
     }
 }
 
-.fs-7{
-    font-size: calc(1rem + .3vw)!important;
-}
 @media (max-width: 576px) {
-    .fs-7{
-        font-size: calc(0.55rem + .3vw)!important;
+    .fs-4 {
+        font-size: calc(1rem + .3vw) !important;
     }
 }
 
-.mail{
+.fs-7 {
+    font-size: calc(1rem + .3vw) !important;
+}
+
+@media (max-width: 576px) {
+    .fs-7 {
+        font-size: calc(0.55rem + .3vw) !important;
+    }
+}
+
+.mail {
     background-color: rgb(44, 48, 62);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -974,20 +990,21 @@ input:-webkit-autofill:active {
     transition: all 0.3s ease-in-out 0s;
     overflow: hidden;
 }
-.copy{
+
+.copy {
     border-top-left-radius: 15px;
     background-color: rgb(102, 111, 133);
     position: relative;
-    left:-12px;
+    left: -12px;
     padding: 10px 0px 0px 0px;
     width: 55px;
     height: 52px;
-    color:#FFF;
+    color: #FFF;
     transition: all 0.3s ease-in-out 0s;
-    font-size:2rem;
+    font-size: 2rem;
 }
 
-.mailadre{
+.mailadre {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     display: flex;
@@ -997,46 +1014,49 @@ input:-webkit-autofill:active {
     height: 100%;
 }
 
-.copyright{
+.copyright {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.projcars{
-    display:flex;
+
+.projcars {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:100%;
+    width: 100%;
 
 }
-@media (min-width:1520px ){
-    .projcars{
+
+@media (min-width:1520px) {
+    .projcars {
         flex-direction: row;
     }
 }
 
-.w{
-    max-width:1500px;
+.w {
+    max-width: 1500px;
 }
 
-.b{
-    width:33%;
+.b {
+    width: 33%;
 }
 
 
-.little{
+.little {
     font-size: 2rem;
     font-family: 'Inconsolata';
 }
 
-@media (max-width:770px){
-    .little{
+@media (max-width:770px) {
+    .little {
         font-size: 1.2rem;
     }
 }
-@media(max-width:550px){
-    .little{
-       font-size: 1.3rem;
+
+@media(max-width:550px) {
+    .little {
+        font-size: 1.3rem;
     }
 }
