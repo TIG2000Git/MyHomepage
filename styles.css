@@ -1060,3 +1060,7 @@ input:-webkit-autofill:active {
         font-size: 1.3rem;
     }
 }
+
+.modal-content{
+    background-color: #141414;
+}
